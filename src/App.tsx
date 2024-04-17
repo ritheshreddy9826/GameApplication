@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import {Grid, GridItem} from '@chakra-ui/react'
+import GenreList from './components/GenreList'
 
 function App() {
   
@@ -13,7 +14,7 @@ function App() {
           Nav
         </GridItem>
         <GridItem area='aside' bg='gold'>
-          Aside
+        <GenreList/>
         </GridItem>
         <GridItem area='main' bg='dodgerblue'>
           Main
