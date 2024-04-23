@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 import ColorModeSwitch from './ColorModeSwitch'
 import SearchInput from './SearchInput'
 
-interface Props{
+export interface Props{
   onSearch : (searchText : string) => void;
 }
 
